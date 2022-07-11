@@ -1,4 +1,4 @@
-# FIFA Womens Rankings
+# FIFA Women's Rankings
 
 ### An easy way to access FIFA Women's Rankings by date from 2003 up to today.
 
