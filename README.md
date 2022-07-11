@@ -2,11 +2,13 @@
 
 ### An easy way to access FIFA Women's Rankings by date from 2003 up to today.
 
-This data is readily available through FIFA's data API, simply made available here as a CSV file for easy access. 
+This data is readily available through FIFA's data API, simply made available here as a CSV file for easy access: 
+
+# [fifa_womens_rankings.csv](https://github.com/hlynurhallgrims/FIFA-Womens-Rankings/blob/main/fifa_womens_rankings.csv)
 
 #### However, one major change has been made to the data, and three minor changes. 
 
-## Major differences from the FIFA data API.
+## Major difference from the FIFA data API.
 
 #### 1. Four new columns have been added to the dataset, all of them with a column name prefix of `lagged_`
 
