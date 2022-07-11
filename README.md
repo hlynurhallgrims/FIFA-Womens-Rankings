@@ -13,7 +13,7 @@ This data is readily available through FIFA's data API, simply made available he
 They are as follows.
 
 1. `lagged_ranking_date`
- - As each observation has values for both `previous_rank` and `previous_points`, but **no** information on the date of the date of 
+ - As each observation has values for both `previous_rank` and `previous_points`, but **no** information on the date of 
  said previous rank and previous points, this is an attempt to amend that by applying a lag of 1 to the `ranking_date` column. 
 2. `lagged_rank`
  - This is the equivalent of `previous_rank` but is achieved by applying a lag of 1 to the `rank` column. 
