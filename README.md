@@ -1,4 +1,4 @@
-# FIFA-Womens-Rankings
+# FIFA Womens Rankings
 
 ### An easy way to access FIFA Women's Rankings by date from 2003 up to today.
 
@@ -35,8 +35,7 @@ This is how the data is inserted:
 | `lagged_rank`         | corresponding `previous_rank` value   |
 | `lagged_points`       | corresponding `previous_points` value |
 
-the `lagged_true` column only serves to denote which of the rows are the results of the actual lag function, and which ones are the rows with the 
-aforementioned inserted data.
+The `lagged_true` column only serves to denote which of the rows are the results of the actual lag function (the rows where the value of `lagged_true` is "TRUE) and which ones are the rows with the aforementioned inserted data (the rows where the value of `lagged_true` is "FALSE". 
 
 ## Minor differences from the FIFA data API.
 
